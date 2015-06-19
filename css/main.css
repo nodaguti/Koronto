@@ -1,0 +1,24 @@
+
+body{
+    padding-bottom: 500px;
+}
+
+#map-user-location,
+.map-facility{
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#facilities:not(:empty) ~ .preloader-wrapper{
+    display: none;
+}
+
+.collapsible > li,
+.collapsible-header{
+    overflow: hidden;
+}
+
+.facility-info{
+    margin-top: 1em;
+}
